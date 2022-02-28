@@ -1,8 +1,6 @@
 package com.livraria.Livraria.api.resource;
 
 import com.livraria.Livraria.api.dto.BookDTO;
-import com.livraria.Livraria.api.exceptions.ApiErros;
-import com.livraria.Livraria.api.exceptions.BusinessException;
 import com.livraria.Livraria.model.entity.Book;
 import com.livraria.Livraria.service.BookService;
 import lombok.RequiredArgsConstructor;
@@ -11,8 +9,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
